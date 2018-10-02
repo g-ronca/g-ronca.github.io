@@ -3,7 +3,7 @@ module.exports = {
     title: "G.Ronca",
     author: "Giuseppe Ronca",
     description: "Personal website",
-    siteUrl: `https://www.example.com`,
+    siteUrl: `https://g-ronca.github.io`,
   },
   pathPrefix: "/",
   plugins: [
