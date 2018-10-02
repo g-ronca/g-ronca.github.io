@@ -11,9 +11,9 @@ const Work = () => (
     <div className="nine columns main-col">
       <div className="row item">
         <div className="twelve columns">
-          <h3>Awesome Design Studio</h3>
+          <h3>Developer for various company</h3>
           <p className="info">
-            Senior UX Designer
+            Senior Developer
             <span>&bull;</span>
             <em className="date">March 2010 - Present</em>
           </p>
@@ -32,9 +32,9 @@ const Work = () => (
 
       <div className="row item">
         <div className="twelve columns">
-          <h3>Super Cool Studio</h3>
+          <h3>Freelance</h3>
           <p className="info">
-            UX Designer
+            Freelance developer
             <span>&bull;</span>
             <em className="date">March 2007 - February 2010</em>
           </p>

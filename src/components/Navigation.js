@@ -1,36 +1,37 @@
 import React from "react";
+import { HashLink as Link } from 'react-router-hash-link';
 
 const Navigation = () => (
   <nav id="nav-wrap">
-    <a className="mobile-btn" href="#nav-wrap" />
+    <a className="mobile-btn" href="/#nav-wrap" />
     <ul id="nav" className="nav">
       <li className="current">
-        <a className="smoothscroll" href="#home">
+        <Link smooth to="/#home">
           Home
-        </a>
+        </Link>
       </li>
       <li>
-        <a className="smoothscroll" href="#about">
+        <Link smooth to="/#about">
           About
-        </a>
+        </Link>
       </li>
       <li>
-        <a className="smoothscroll" href="#resume">
+        <a className="smoothscroll" href="/#resume">
           Resume
         </a>
       </li>
       <li>
-        <a className="smoothscroll" href="#portfolio">
+        <a className="smoothscroll" href="/#portfolio">
           Works
         </a>
       </li>
-      <li>
-        <a className="smoothscroll" href="#testimonials">
+      {/*<li>
+        <a className="smoothscroll" href="/#testimonials">
           Testimonials
         </a>
-      </li>
+      </li>*/}
       <li>
-        <a className="smoothscroll" href="#footer">
+        <a className="smoothscroll" href="/#footer">
           Footer
         </a>
       </li>

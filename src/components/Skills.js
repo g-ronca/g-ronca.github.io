@@ -21,28 +21,32 @@ const Skills = () => (
       <div className="bars">
         <ul className="skills">
           <li>
-            <span className="bar-expand photoshop" />
-            <em>Photoshop</em>
+            <span className="bar-expand skillbar-anim" style={{ width: "80%" }} />
+            <em>Javascript (ReactJS, AngularJS, NodeJS ...)</em>
           </li>
           <li>
-            <span className="bar-expand illustrator" />
-            <em>Illustrator</em>
+            <span className="bar-expand skillbar-anim" style={{ width: "75%" }} />
+            <em>PHP & FRIENDS (Wordpress, Symfony ...)</em>
           </li>
           <li>
-            <span className="bar-expand wordpress" />
-            <em>Wordpress</em>
+            <span className="bar-expand skillbar-anim" style={{ width: "74%" }} />
+            <em>GIT & BASH</em>
           </li>
           <li>
-            <span className="bar-expand css" />
-            <em>CSS</em>
+            <span className="bar-expand skillbar-anim" style={{ width: "71%" }} />
+            <em>CSS & Bootstrap</em>
           </li>
           <li>
-            <span className="bar-expand html5" />
-            <em>HTML5</em>
+            <span className="bar-expand skillbar-anim" style={{ width: "70%" }} />
+            <em>JAVA</em>
           </li>
           <li>
-            <span className="bar-expand nodejs" />
-            <em>Nodejs</em>
+            <span className="bar-expand skillbar-anim" style={{ width: "65%" }} />
+            <em>C++</em>
+          </li>
+          <li>
+            <span className="bar-expand skillbar-anim" style={{ width: "40%" }} />
+            <em>Illustrator & photoshop</em>
           </li>
         </ul>
       </div>

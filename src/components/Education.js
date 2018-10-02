@@ -13,7 +13,7 @@ const Education = () => (
         <div className="twelve columns">
           <h3>University of Life</h3>
           <p className="info">
-            Master in Graphic Design
+            Master in IT
             <span>&bull;</span>
             <em className="date">April 2007</em>
           </p>
@@ -32,15 +32,15 @@ const Education = () => (
 
       <div className="row item">
         <div className="twelve columns">
-          <h3>School of Cool Designers</h3>
+          <h3>School of Cool Developers</h3>
           <p className="info">
-            B.A. Degree in Graphic Design
+            B.A. Degree in Computer Science
             <span>&bull;</span>
             <em className="date">March 2003</em>
           </p>
 
           <p>
-            This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
+            This is code's version of Lorem Ipsum. Proin gravida nibh vel
             velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
             auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
             Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.

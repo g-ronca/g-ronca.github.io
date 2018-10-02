@@ -1,5 +1,5 @@
 import React from "react";
-import { FaCloudDownloadAlt } from "react-icons/fa";
+import { FaCloudDownloadAlt, FaMapPin } from "react-icons/fa";
 
 import profilePic from "../assets/images/profilepic.jpg";
 
@@ -27,25 +27,20 @@ const About = () => (
           <div className="columns contact-details">
             <h2>Contact Details</h2>
             <p className="address">
-              <span>Jonathan Doe</span>
+              <span>Giuseppe Ronca</span>
               <br />
               <span>
-                1600 Amphitheatre Parkway
-                <br /> Mountain View, CA 94043 US
+                <FaMapPin /> From Italy
               </span>
-              <br />
-              <span>(123)456-7890</span>
-              <br />
-              <span>anyone@website.com</span>
             </p>
           </div>
-          <div className="columns download">
+          {/*<div className="columns download">
             <p>
               <a href="#" className="button">
                 <FaCloudDownloadAlt /> Download Resume
               </a>
             </p>
-          </div>
+          </div>*/}
         </div>
       </div>
     </div>
