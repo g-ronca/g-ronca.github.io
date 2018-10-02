@@ -1,0 +1,45 @@
+{
+  "name": "gatsby-starter-ceevee",
+  "description": "Gatsby Starter - CeeVee ",
+  "version": "1.0.1",
+  "author": "Aman Mittal <amandeepmittal@live.com>",
+  "dependencies": {
+    "gatsby": "^2.0.14",
+    "gatsby-link": "^2.0.3",
+    "gatsby-plugin-google-analytics": "^2.0.6",
+    "gatsby-plugin-google-fonts": "0.0.4",
+    "gatsby-plugin-react-helmet": "^3.0.0",
+    "gatsby-plugin-sass": "^2.0.1",
+    "gatsby-plugin-sharp": "^2.0.5",
+    "gatsby-plugin-sitemap": "^2.0.1",
+    "gatsby-plugin-typography": "2.2.0",
+    "gatsby-remark-copy-linked-files": "^2.0.5",
+    "gatsby-remark-images": "^2.0.3",
+    "gatsby-source-filesystem": "^2.0.1",
+    "gatsby-transformer-remark": "^2.1.5",
+    "gatsby-transformer-sharp": "^2.1.3",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-helmet": "^5.2.0",
+    "react-icons": "3.1.0",
+    "react-slick": "0.23.1",
+    "react-typography": "^0.16.13",
+    "slick-carousel": "1.8.1",
+    "typography": "^0.16.17",
+    "typography-theme-bootstrap": "0.16.7"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "prettier": "^1.14.3"
+  }
+}
