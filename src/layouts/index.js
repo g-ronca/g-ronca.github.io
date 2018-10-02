@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import Helmet from "react-helmet";
 import { siteMetadata } from "../../gatsby-config";
 
-const TemplateWrapper = ({ children }) => (
+const HeadHelmet = ({ children }) => (
   <div>
     <Helmet>
       <meta name="author" description={siteMetadata.author} />
@@ -20,12 +20,7 @@ const TemplateWrapper = ({ children }) => (
       <title>{siteMetadata.title}</title>
       <link rel="icon" href="../assets/favicon.png" type="image/x-icon"/>
     </Helmet>
-    {children()}
   </div>
 );
 
-TemplateWrapper.propTypes = {
-  children: PropTypes.func
-};
-
-export default TemplateWrapper;
+export default HeadHelmet;

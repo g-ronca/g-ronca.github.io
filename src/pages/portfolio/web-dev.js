@@ -3,10 +3,12 @@ import React from "react";
 import "../../assets/css/main.css";
 
 import Navigation from "../../components/Navigation";
+import HeadHelmet from "../../layouts/index";
 
 const WebDev = () => (
     <div>
-        <Navigation/>
+        <HeadHelmet />
+        <Navigation />
         <section id="portfolio-page">
             <div className="row">
                 <div className="twelve columns">
