@@ -950,7 +950,7 @@ header .scrolldown a:hover {
 
 /* nav-wrap */
 #nav-wrap {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.45);
   font: 12px "opensans-bold", sans-serif;
   width: 100%;
   text-transform: uppercase;
@@ -1006,7 +1006,7 @@ ul#nav li a:active {
   background-color: transparent !important;
 }
 ul#nav li.current a {
-  color: #f06000;
+  color: #39e80f;
 }
 
 /* ------------------------------------------------------------------ */
@@ -1014,7 +1014,7 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #about {
-  background: #2b2b2b;
+  background: #182216;
   padding-top: 96px;
   padding-bottom: 66px;
   overflow: hidden;
@@ -1175,7 +1175,7 @@ ul#nav li.current a {
 
   margin: 0;
   padding-right: 24px;
-  background: #313131;
+  background: #20711a;
   display: inline-block;
   height: 42px;
   line-height: 42px;

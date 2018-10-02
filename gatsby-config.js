@@ -41,6 +41,19 @@ module.exports = {
         ]
       }
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: 'G.Ronca Website',
+        short_name: 'G.Ronca',
+        start_url: '/',
+        background_color: '#182216',
+        theme_color: '#182216',
+        display: 'minimal-ui',
+        icon: 'src/assets/images/logo.png', // This path is relative to the root of the site.
+      }
+    },
+    'gatsby-plugin-offline',
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-react-helmet`,
