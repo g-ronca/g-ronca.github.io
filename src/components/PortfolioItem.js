@@ -1,6 +1,6 @@
 import React from "react";
 import { FaPlus, FaTag } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { Link } from "gatsby";
 
 const PortfolioItem = (props) => (
     <div className="columns portfolio-item">

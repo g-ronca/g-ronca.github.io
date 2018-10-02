@@ -1,20 +1,23 @@
 import React from "react";
-import { Router, Switch, Route } from "react-router";
-import createBrowserHistory from 'history/createBrowserHistory'
+
 import "../assets/css/main.css";
 
-import Home from "./home";
-import WebDev from "./portfolio/web-dev";
-
-const customHistory = createBrowserHistory()
+import Header from "../components/Header";
+import About from "../components/About";
+import Resume from "../components/Resume";
+import Portfolio from "../components/Portfolio";
+import Testimonials from "../components/Testimonials";
+import Footer from "../components/Footer";
 
 const IndexPage = () => (
-  <Router history={customHistory}>
-    <Switch>
-      <Route path="/" exact component={Home} />
-      <Route path="/portfolio/web-dev" component={WebDev} />
-    </Switch>
-  </Router>
+  <div>
+    <Header />
+    <About />
+    <Resume />
+    <Portfolio />
+    {/* <Testimonials /> */}
+    <Footer />
+  </div>
 );
 
 export default IndexPage;

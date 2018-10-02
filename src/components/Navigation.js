@@ -1,40 +1,40 @@
 import React from "react";
-import { HashLink as Link } from 'react-router-hash-link';
+import { Link } from 'gatsby';
 
 const Navigation = () => (
   <nav id="nav-wrap">
     <a className="mobile-btn" href="/#nav-wrap" />
     <ul id="nav" className="nav">
       <li className="current">
-        <Link smooth to="/#home">
+        <Link to="/#home">
           Home
         </Link>
       </li>
       <li>
-        <Link smooth to="/#about">
+        <Link to="/#about">
           About
         </Link>
       </li>
       <li>
-        <a className="smoothscroll" href="/#resume">
+      <Link to="/#resume">
           Resume
-        </a>
+        </Link>
       </li>
       <li>
-        <a className="smoothscroll" href="/#portfolio">
+        <Link to="/#portfolio">
           Works
-        </a>
+        </Link>
       </li>
       {/*<li>
-        <a className="smoothscroll" href="/#testimonials">
+        <Link to="/#testimonials">
           Testimonials
-        </a>
-      </li>*/}
-      <li>
-        <a className="smoothscroll" href="/#footer">
-          Footer
-        </a>
+        </Link>
       </li>
+      <li>
+        <Link to="/#footer">
+          Footer
+        </Link>
+      </li>*/}
     </ul>
   </nav>
 );
